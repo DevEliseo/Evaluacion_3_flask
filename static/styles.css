@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 90px;
+    background-color: #0073e6;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    background-color: #005bb5;
+}
+
+/* formulario 1
+
+ */
+
+body.pagina-formulario {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    width: 340px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.tarjeta h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #111111;
+}
+
+.tarjeta label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #222222;
+}
+
+.tarjeta input {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn-enviar {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #0069d9;
+}
+
+.resultado {
+    margin-top: 18px;
+    font-size: 16px;
+    color: #111111;
+}
+
+.resultado p {
+    margin: 6px 0;
+}
+
+/* formulario 2*/
+.tarjeta-nombres {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.tarjeta-nombres label {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.tarjeta-nombres input {
+    text-align: left;
+}
+
+.resultado-nombres {
+    margin-top: 18px;
+    font-size: 16px;
+    color: #111111;
+}
+
+.resultado-nombres p {
+    margin: 8px 0;
+}
